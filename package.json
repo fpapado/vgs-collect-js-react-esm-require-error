@@ -1,0 +1,25 @@
+{
+  "name": "vgs-collect-js-react-esm-require-error",
+  "private": true,
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "demo": "pnpm build && node dist/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@tsconfig/node20": "20.1.4",
+    "@types/react": "18.3.7",
+    "@types/react-dom": "18.3.0",
+    "typescript": "5.6.2"
+  },
+  "dependencies": {
+    "@vgs/collect-js-react": "1.2.0",
+    "react": "18.3.1",
+    "react-dom": "18.3.1"
+  }
+}

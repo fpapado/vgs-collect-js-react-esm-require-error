@@ -1,0 +1,10 @@
+{
+  "extends": "@tsconfig/node20",
+  "compilerOptions": {
+    "declaration": true,
+    "lib": ["DOM", "ES2023"],
+    "jsx": "react-jsx",
+    "outDir": "dist"
+  },
+  "files": ["index.tsx"]
+}
